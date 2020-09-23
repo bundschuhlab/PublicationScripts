@@ -1,2 +1,1 @@
-# PublicationScripts
-This repository is used to publish various scripts associated with the data analysis in publications. Full software packages described in methods oriented publications are published in separate repositories.
+This directory contains the custom scripts used for the model in the manuscript "A quantitative model for a nanoscale switch accurately predicts thermal actuation behavior" by Kyle Crocker, Joshua Johnson, Wolfgang Pfeifer, Carlos Castro, and Ralf Bundschuh.
