@@ -1,9 +1,14 @@
 #!/usr/bin/env python
 
-#This program calculates the partition function and probability to be in an open state for the composite AuNP-DNA nano-hinge described in the manuscript "A quantitative model for a nanoscale switch accurately predicts thermal actuation behavior" by Kyle Crocker, Joshua Johnson, Wolfgang Pfeifer, Carlos Castro, and Ralf Bundschuh.
+#This program calculates the partition function and probability 
+#to be in an open state for the composite AuNP-DNA nano-hinge 
+#described in the manuscript 
+#"A quantitative model for a nanoscale switch accurately predicts thermal actuation behavior" 
+#by Kyle Crocker, Joshua Johnson, Wolfgang Pfeifer, Carlos Castro, and Ralf Bundschuh.
 
 
-#Copyright (C) <2020>  <The Ohio State University>                                                                                                                      
+#Copyright (C) <2020>  <The Ohio State University>       
+
 #This program is free software: you can redistribute it and/or modify                              
 #it under the terms of the GNU General Public License as published by 
 #the Free Software Foundation, either version 3 of the License, or    
