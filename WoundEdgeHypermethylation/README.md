@@ -7,7 +7,7 @@ The code consists of two python scripts, which should run under any version of p
 
 ## Installation
 
-No installation of the software is necessary. Assuming python 2.7 is installed on the computer the scripts can be run immediately.
+No installation of the software is necessary. Assuming python 2.7 with `numpy` and `matplotlib` is installed on the computer the scripts can be run immediately.
 
 ## Sorting
 
