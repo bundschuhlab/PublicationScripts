@@ -17,7 +17,7 @@ The demo is run via
 
     python sorting.py sorting_in.tsv sorting_out.txt
 
-It runs in fractions of a second and should create the output file `sorting_out_expected.txt`. Running it on any other data file is done by replacing `sorting_in.dat` by the name of the input file to be processed.
+It runs in fractions of a second and should create the same output as in the file `sorting_out_expected.txt`. Running it on any other data file is done by replacing `sorting_in.tsv` by the name of the input file to be processed.
 
 ## Comparing
 
@@ -27,4 +27,4 @@ The demo is run via
 
     python comparing.py dmrs.tsv degs.tsv --make_plots
 
-It runs in fractions of a second and should create output files `matched_dmrs_degs_same.txt`, `matched_dmrs_degs_opposite.txt`, and `dmrs_v_degs.png`. These should agree with the provided files  `matched_dmrs_degs_same_expected.txt`, `matched_dmrs_degs_opposite_expected.txt`, and `dmrs_v_degs_expected.png`, respectively (the image file might differ in binary format but should show the same image).
+It runs in fractions of a second and should create output files `matched_dmrs_degs_same.txt`, `matched_dmrs_degs_opposite.txt`, and `dmrs_v_degs.png`. These should agree with the provided files  `matched_dmrs_degs_same_expected.txt`, `matched_dmrs_degs_opposite_expected.txt`, and `dmrs_v_degs_expected.png`, respectively (the image file might differ in binary format but should show the same image).  Running it on any other data file is done by replacing `dmrs.tsv` and `degs.tsv` by the names of the input files to be processed.
