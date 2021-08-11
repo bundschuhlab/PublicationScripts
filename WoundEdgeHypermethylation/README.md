@@ -15,7 +15,7 @@ The script sorting.py takes a list of differentially expressed genes as reported
 
 The demo is run via
 
-    python sorting.py sorting_in.dat sorting_out.dat
+    python sorting.py sorting_in.csv sorting_out.txt
 
-It runs in fractions of a second and should create the output file sorting_out_expected.dat. Running it on any other data file is done by replacing sorting_in.dat by the name of the input file to be processed.
+It runs in fractions of a second and should create the output file sorting_out_expected.txt. Running it on any other data file is done by replacing sorting_in.dat by the name of the input file to be processed.
 
