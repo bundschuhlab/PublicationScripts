@@ -15,9 +15,9 @@ The script `sorting.py` takes a list of differentially expressed genes as report
 
 The demo is run via
 
-    python sorting.py sorting_in.tsv sorting_out.txt
+    python sorting.py degs.tsv sorting_out.txt
 
-It runs in fractions of a second and should create the same output as in the file `sorting_out_expected.txt`. Running it on any other data file is done by replacing `sorting_in.tsv` by the name of the input file to be processed.
+It runs in fractions of a second and creates the output file `sorting_out.txt`, which should agree with the file `sorting_out_expected.txt`. Running it on any other data file is done by replacing `sorting_in.tsv` by the name of the input file to be processed.
 
 ## Comparing
 
