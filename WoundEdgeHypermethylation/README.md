@@ -3,7 +3,7 @@ This directory contains the custom scripts used to analyze RNA-Seq and DNA methy
 
 ## System requirements
 
-The code consists of two python scripts, which should run under any version of python 2.7. Specifically, they have been tested under python 2.7.5 on Linux version 3.10.0. The dmr_v_deg.py script depends on the commonly used packages numpy and matplotlib while the sorting.py script does not have any dependencies outside of standard python libraries.
+The code consists of two python scripts, which should run under any version of python 2.7. Specifically, they have been tested under python 2.7.5 on Linux version 3.10.0. The `comparing.py` script depends on the commonly used packages `numpy` and `matplotlib` while the `sorting.py` script does not have any dependencies outside of standard python libraries.
 
 ## Installation
 
