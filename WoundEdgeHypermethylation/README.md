@@ -3,7 +3,7 @@ This directory contains the custom scripts used to analyze RNA-Seq and DNA methy
 
 ## System requirements
 
-The code consists of two python scripts, which should run under any version of python 2.7. Specifically, they have been tested under python 2.7.5 on Linux version 3.10.0. The dmr_v_deg.py script depends on matplotlib while the sorting.py script does not have any dependencies outside of standard python libraries.
+The code consists of two python scripts, which should run under any version of python 2.7. Specifically, they have been tested under python 2.7.5 on Linux version 3.10.0. The dmr_v_deg.py script depends on the commonly used packages numpy and matplotlib while the sorting.py script does not have any dependencies outside of standard python libraries.
 
 ## Installation
 
@@ -11,11 +11,20 @@ No installation of the software is necessary. Assuming python 2.7 is installed o
 
 ## Sorting
 
-The script sorting.py takes a list of differentially expressed genes as reported by DESeq2, filters for those with a baseMean of at least 10 and sorts the list by baseMean.
+The script `sorting.py` takes a list of differentially expressed genes as reported by DESeq2, filters for those with a baseMean of at least 10 and sorts the list by baseMean.
 
 The demo is run via
 
-    python sorting.py sorting_in.csv sorting_out.txt
+    python sorting.py sorting_in.tsv sorting_out.txt
 
-It runs in fractions of a second and should create the output file sorting_out_expected.txt. Running it on any other data file is done by replacing sorting_in.dat by the name of the input file to be processed.
+It runs in fractions of a second and should create the output file `sorting_out_expected.txt`. Running it on any other data file is done by replacing `sorting_in.dat` by the name of the input file to be processed.
 
+## Comparing
+
+The script `comparing.py` takes a list of differentially expressed genes as reported by DESeq2 and a list of differentially methylated genes as reported from PrEMeR-CG and extracts genes that are both differentially expressed and methylated.
+
+The demo is run via
+
+    python comparing.py dmrs.tsv degs.tsv --make_plots
+
+It runs in fractions of a second and should create output files `matched_dmrs_degs_same.txt`, `matched_dmrs_degs_opposite.txt`, and `dmrs_v_degs.png`. These should agree with the provided files  `matched_dmrs_degs_same_expected.txt`, `matched_dmrs_degs_opposite_expected.txt`, and `dmrs_v_degs_expected.png`, respectively (the image file might differ in binary format but should show the same image).
